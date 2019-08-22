@@ -141,9 +141,9 @@
 							
 							<p>Then   <code><span style="background-color: rgba(0, 255, 242, 0.596)">  a = c ^ b </span></code> *   </p>
 							<p> *( or a = b ^ c because XOR  is commutative )</p>
-							<p>Hence the inverse of <code> <span style="background-color: rgb(255, 251, 0)">out</span> = <span style="background-color: rgba(0, 255, 170, 0.774)">  chr(ord(<span style="background-color: rgb(0, 195, 255)"> in </span>)^10  </span></code>  </p>
+							<p>Hence the inverse of <code> <span style="background-color: rgb(255, 251, 0)">out</span> = <span style="background-color: rgba(0, 255, 170, 0.774)">  chr(ord(<span style="background-color: rgb(0, 195, 255)"> in </span>)^10)  </span></code>  </p>
 							<p> Came to be - </p>
-							<p><code> <span style="background-color: rgb(0, 195, 255)">in</span> = <span style="background-color: rgba(0, 255, 170, 0.774)"> chr(ord(<span style="background-color: rgb(255, 251, 0)"> out </span>)^10</span></code></p>
+							<p><code> <span style="background-color: rgb(0, 195, 255)">in</span> = <span style="background-color: rgba(0, 255, 170, 0.774)"> chr(ord(<span style="background-color: rgb(255, 251, 0)"> out </span>)^10)</span></code></p>
 							<P> <code><span style="background-color: rgba(255, 174, 0, 0.849)">encode()</span></code> was the equivalent of a homerun. To reverse it I just had to convert the characters from hex to ASCII  using - </P>
 							<p><code> <span style="background-color: rgb(255, 251, 0)">out</span> = <span style="background-color: rgba(0, 255, 170, 0.774)"> bytearray.fromhex(<span style="background-color: rgb(0, 195, 255)"> in </span>).decode()</span></code></p>
 							<p> And now, cue drumroll -   </p>
