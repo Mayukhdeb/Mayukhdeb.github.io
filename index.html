@@ -31,7 +31,7 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>What do I do ? </h2>
-							<p>I code for fun, I love to learn things by myself and figure out my ways through problems. And the best thing that could happen to me is that I get a chance to collaborate with people who are more capable than me, and make bigger things while learning on the way. </p>
+							<p>I code for fun, I love to learn things by myself and figure out my ways through problems.</p>
 							<ul class="actions stacked">
 								
 							</ul>
@@ -60,6 +60,7 @@
 						<div class="content">
 							<h2>And, for the next 6 months - </h2>
 							<p>The main objective would be to keep improving every day. And make more fun projects involving Computer vision and deep learning.</p>
+							<p>I'll also try to make a simple web app which would do some simple deep learning based task like telling me which animal it is if I drag and rop a photo</p>
 							
 
 						</div>
@@ -76,9 +77,14 @@
 						<h2>mind_the_bend</h2>
 
 
-						<h3>Deep learning model to train and drive on a racing track, it's still a work in progress</h3>
-						<a><img src="images/race1.png" width = "60%"  img-align= "middle" /></a>
+						<h3>Deep learning model to train and drive on a racing track.</h3>
+						<h4>Can it stay on the track ?</h4>
+						<h4>Yes</h4>
+						
 
+						<a><img src="images/race1.png" width = "60%"  img-align= "middle" /></a>
+						<h4>Should I trust my life on it ?</h4>
+						<h4>No</h4>
 						<p>The model trains upon the RGB images and the x co-ordinate of the mouse (The steering is controlled with the mouse) </p>
 						<a><img src="images/plt1.png" width = "60%"  img-align= "middle" /></a>
 
@@ -89,8 +95,11 @@
 
 						<p>As of now I balanced the lefts and rights by mirroring the images and adding them to the training set with reversed steering values. </p>
 
-						<p>Planned: balance the dataset with augmentation. And also collect a lot more training data </p>
-
+						<h3>The problem with low framerates</h3>
+						<p>Initially when I tried to collect screenshots using PyAutogui, the framerates were around 5 FPS at its peak. Which made me qusetion as to whether the issue was with my i5 laptop or with the code. Only to realise later on that it gave about 7 FPS on an i9 9th gen machine as well.</p>
+						<h4>Figuring a way around it </h4>
+						<p>After some digging, I found out about "mss" a library which takes screenshots on linux way faster than anything else.</p>
+						<p>And after about 30 minutes of collecting training data, and training a simple PyTorch CNN on it. It actually managed to stay on the road. </p>
 						<ul class="actions stacked">
 							<li><a href="https://github.com/Mayukhdeb/mind_the_bend" class="button">mind_the_bend repo</a></li>
 						</ul>
