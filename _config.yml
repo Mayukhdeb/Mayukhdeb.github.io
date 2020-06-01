@@ -1,5 +1,5 @@
 # Site settings
-title: Mayukh's blog
+title: mayukhdeb.github.io
 description: 
 baseurl: 
 relative_url: True
@@ -7,7 +7,7 @@ relative_url: True
 
 # User settings
 username: Mayukh Deb
-user_description: Mario jumps over luigi. 
+user_description: .
 user_title: Making computers see things
 email: mayukhmainak2000@gmail.com
 twitter_username: mayukh091
