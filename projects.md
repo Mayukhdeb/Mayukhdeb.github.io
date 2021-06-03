@@ -5,7 +5,7 @@ title: 🧙‍♂️ projects
 
 Most of them were made for fun, but a few of them eventually ended up being useful to me and a few other people.
 
-Even though all I like all of the projects I've made, I've ordered them based on their relevance to my current goals:
+Even though I like all of the projects I've made, I've ordered them based on their relevance to my current goals:
 
 * [torch-dreams](https://github.com/Mayukhdeb/torch-dreams) + [rover](https://github.com/Mayukhdeb/rover)
 * [devolearn](https://github.com/DevoLearn/devolearn)
