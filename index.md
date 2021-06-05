@@ -2,7 +2,7 @@
 layout: home
 ---
 
-As of late I spend my time trying to reverse engineer neural networks to to figure out ways to fool them. This has eventually led to [torch-dreams](https://github.com/Mayukhdeb/torch-dreams)
+As of late I spend my time trying to reverse engineer neural networks to figure out ways to fool them. This has eventually led to [torch-dreams](https://github.com/Mayukhdeb/torch-dreams)
 
 I've worked with  [INCF](https://incf.org/)/[OpenWorm](http://openworm.org/) during [Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/projects/5694589333143552/) to build [devolearn](https://github.com/DevoLearn/devolearn), a set of deep-learning based tools to help accelerate research in developmental biology.
 
