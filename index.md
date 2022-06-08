@@ -2,7 +2,7 @@
 layout: home
 ---
 
-🔍 As of late I'm trying to explain and understand how large neural nets work at [Aleph-Alpha](https://aleph-alpha.de/).
+🔍 I'm currently working on reverse engineering thicc neural nets at [Aleph-Alpha](https://aleph-alpha.de/).
 
 🎨 I'm also building [eden](https://github.com/abraham-ai/eden), a sandbox for [abraham.ai](https://abraham.ai/) to create generative art with machine learning. I've spent some time in the past trying to reverse engineer vision models which eventually led to [torch-dreams](https://github.com/Mayukhdeb/torch-dreams). 
 
