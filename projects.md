@@ -25,6 +25,6 @@ Older, more rudimentary projects:
 * [deep-chicken-saviour](https://github.com/Mayukhdeb/deep-chicken-saviour)
 * [gradient-games](https://github.com/Mayukhdeb/gradient-games)
 
-Since you made it this far, here's a tree I made on matplotlib on a loss landscape: 
+Since you made it this far, here's a bunch of trees I made on a loss landscape: 
 
 <img src= "https://github.com/Mayukhdeb/loss_landscape/raw/master/images/iris_encoder_trees.png" alt="Image alt" />
